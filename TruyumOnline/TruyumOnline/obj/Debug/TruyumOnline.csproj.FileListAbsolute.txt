@@ -1,0 +1,12 @@
+C:\Users\user\Desktop\truYum\TruyumOnline\TruyumOnline\bin\Debug\TruyumOnline.exe.config
+C:\Users\user\Desktop\truYum\TruyumOnline\TruyumOnline\bin\Debug\TruyumOnline.exe
+C:\Users\user\Desktop\truYum\TruyumOnline\TruyumOnline\bin\Debug\TruyumOnline.pdb
+C:\Users\user\Desktop\truYum\TruyumOnline\TruyumOnline\obj\Debug\TruyumOnline.csprojAssemblyReference.cache
+C:\Users\user\Desktop\truYum\TruyumOnline\TruyumOnline\obj\Debug\TruyumOnline.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\truYum\TruyumOnline\TruyumOnline\obj\Debug\TruyumOnline.exe
+C:\Users\user\Desktop\truYum\TruyumOnline\TruyumOnline\obj\Debug\TruyumOnline.pdb
+C:\Users\user\Desktop\truYum\TruyumOnline\TruyumOnline\bin\Debug\Com.Cognizant.Truyum.Dao.dll
+C:\Users\user\Desktop\truYum\TruyumOnline\TruyumOnline\bin\Debug\Com.Cognizant.Truyum.Model.dll
+C:\Users\user\Desktop\truYum\TruyumOnline\TruyumOnline\bin\Debug\Com.Cognizant.Truyum.Dao.pdb
+C:\Users\user\Desktop\truYum\TruyumOnline\TruyumOnline\bin\Debug\Com.Cognizant.Truyum.Model.pdb
+C:\Users\user\Desktop\truYum\TruyumOnline\TruyumOnline\obj\Debug\TruyumOnline.csproj.CopyComplete

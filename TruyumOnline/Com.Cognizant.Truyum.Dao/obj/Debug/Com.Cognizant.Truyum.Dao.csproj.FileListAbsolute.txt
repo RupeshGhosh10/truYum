@@ -1,0 +1,17 @@
+C:\Users\user\Desktop\truYum\TruyumOnline\Com.Cognizant.Truyum.Dao\bin\Debug\Com.Cognizant.Truyum.Dao.dll
+C:\Users\user\Desktop\truYum\TruyumOnline\Com.Cognizant.Truyum.Dao\bin\Debug\Com.Cognizant.Truyum.Dao.pdb
+C:\Users\user\Desktop\truYum\TruyumOnline\Com.Cognizant.Truyum.Dao\bin\Debug\Com.Cognizant.Truyum.Model.dll
+C:\Users\user\Desktop\truYum\TruyumOnline\Com.Cognizant.Truyum.Dao\bin\Debug\Com.Cognizant.Truyum.Model.pdb
+C:\Users\user\Desktop\truYum\TruyumOnline\Com.Cognizant.Truyum.Dao\obj\Debug\Com.Cognizant.Truyum.Dao.csprojAssemblyReference.cache
+C:\Users\user\Desktop\truYum\TruyumOnline\Com.Cognizant.Truyum.Dao\obj\Debug\Com.Cognizant.Truyum.Dao.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\truYum\TruyumOnline\Com.Cognizant.Truyum.Dao\obj\Debug\Com.Cognizant.Truyum.Dao.csproj.CopyComplete
+C:\Users\user\Desktop\truYum\TruyumOnline\Com.Cognizant.Truyum.Dao\obj\Debug\Com.Cognizant.Truyum.Dao.dll
+C:\Users\user\Desktop\truYum\TruyumOnline\Com.Cognizant.Truyum.Dao\obj\Debug\Com.Cognizant.Truyum.Dao.pdb
+C:\Users\user\Desktop\truYum\TruyumOnline\Com.Cognizant.Truyum.Dao\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\user\Desktop\truYum\TruyumOnline\Com.Cognizant.Truyum.Dao\bin\Debug\System.Security.AccessControl.dll
+C:\Users\user\Desktop\truYum\TruyumOnline\Com.Cognizant.Truyum.Dao\bin\Debug\System.Security.Permissions.dll
+C:\Users\user\Desktop\truYum\TruyumOnline\Com.Cognizant.Truyum.Dao\bin\Debug\System.Security.Principal.Windows.dll
+C:\Users\user\Desktop\truYum\TruyumOnline\Com.Cognizant.Truyum.Dao\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Users\user\Desktop\truYum\TruyumOnline\Com.Cognizant.Truyum.Dao\bin\Debug\System.Security.AccessControl.xml
+C:\Users\user\Desktop\truYum\TruyumOnline\Com.Cognizant.Truyum.Dao\bin\Debug\System.Security.Permissions.xml
+C:\Users\user\Desktop\truYum\TruyumOnline\Com.Cognizant.Truyum.Dao\bin\Debug\System.Security.Principal.Windows.xml
