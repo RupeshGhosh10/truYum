@@ -1,0 +1,6 @@
+C:\Users\user\Desktop\truYum\TruyumOnline\Com.Cognizant.Truyum.Utility\bin\Debug\Com.Cognizant.Truyum.Utility.dll
+C:\Users\user\Desktop\truYum\TruyumOnline\Com.Cognizant.Truyum.Utility\bin\Debug\Com.Cognizant.Truyum.Utility.pdb
+C:\Users\user\Desktop\truYum\TruyumOnline\Com.Cognizant.Truyum.Utility\obj\Debug\Com.Cognizant.Truyum.Utility.csprojAssemblyReference.cache
+C:\Users\user\Desktop\truYum\TruyumOnline\Com.Cognizant.Truyum.Utility\obj\Debug\Com.Cognizant.Truyum.Utility.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\truYum\TruyumOnline\Com.Cognizant.Truyum.Utility\obj\Debug\Com.Cognizant.Truyum.Utility.dll
+C:\Users\user\Desktop\truYum\TruyumOnline\Com.Cognizant.Truyum.Utility\obj\Debug\Com.Cognizant.Truyum.Utility.pdb

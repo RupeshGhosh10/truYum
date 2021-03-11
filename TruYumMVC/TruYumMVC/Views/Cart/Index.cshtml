@@ -1,0 +1,30 @@
+﻿@model TruYumMVC.Models.Cart
+@{
+    ViewBag.Title = "Cart - TruYUm";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>View Cart</h1>
+<hr />
+<table class="table table-striped table-hover">
+    <thead>
+        <tr class="success">
+            <th>Name</th>
+            <th>Free Delivery</th>
+            <th>Price</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.MenuItems)
+        {
+        <tr>
+            <td>@item.Name</td>
+            <td>@Html.DisplayFor(m => item.FreeDelivery)</td>
+            <td>@item.Price</td>
+            <td>@Html.ActionLink("Remove", "Delete", "Cart", new { id = item.Id }, null)</td>
+        </tr>
+        }
+    </tbody>
+</table>
+<p class="h4">@Html.ActionLink("View Menu Item", "Index", "Menu")</p>

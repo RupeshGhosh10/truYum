@@ -1,0 +1,77 @@
+﻿@model TruYumMVC.Models.ViewModel.MenuItemViewModel
+@{
+    ViewBag.Title = "Save - TruYum";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@if (Model.MenuItem is null)
+{
+    <h1>Create</h1>
+}
+else
+{
+    <h1>Edit</h1>
+}   
+<hr />
+@using (Html.BeginForm("Modify", "Menu", FormMethod.Post, new { @class = "form-horizontal" }))
+{
+    <div class="form-group">
+        @Html.LabelFor(m => m.MenuItem.Name, new { @class = "col-lg-2 control-label" })
+        <div class="col-lg-10">
+            @Html.TextBoxFor(m => m.MenuItem.Name, new { @class = "form-control" })
+            @Html.ValidationMessageFor(m => m.MenuItem.Name)
+        </div>
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.MenuItem.FreeDelivery, new { @class = "col-lg-2 control-label" })
+        <div class="col-lg-10 my-checkbox">
+            @Html.CheckBoxFor(m => m.MenuItem.FreeDelivery, new { @class = "checkbox checkbox-inline" })
+        </div>
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.MenuItem.Price, new { @class = "col-lg-2 control-label" })
+        <div class="col-lg-10">
+            @Html.TextBoxFor(m => m.MenuItem.Price, new { @class = "form-control" })
+            @Html.ValidationMessageFor(m => m.MenuItem.Price)
+        </div>
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.MenuItem.DateOfLauch, new { @class = "col-lg-2 control-label" })
+        <div class="col-lg-10">
+            @Html.TextBoxFor(m => m.MenuItem.DateOfLauch, "{0:yyyy-MM-dd}", new { @type = "date", @class = "form-control" })
+            @Html.ValidationMessageFor(m => m.MenuItem.DateOfLauch)
+        </div>
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.MenuItem.Active, new { @class = "col-lg-2 control-label" })
+        <div class="col-lg-10 my-checkbox">
+            @Html.CheckBoxFor(m => m.MenuItem.Active, new { @class = "checkbox checkbox-inline" })
+        </div>
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.MenuItem.Category, new { @class = "col-lg-2 control-label" })
+        <div class="col-lg-10">
+            @Html.DropDownListFor(m => m.MenuItem.CategoryId, new SelectList(Model.Categories, "Id", "Name"), new { @class = "form-control" })
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-lg-10 col-lg-offset-2">
+            @if (Model.MenuItem is null)
+            {
+                <button type="submit" class="btn btn-primary">Create</button>
+                <buuton type="reset" class="btn btn-danger">Reset</buuton>
+            }
+            else
+            {
+                <button type="submit" class="btn btn-primary">Save</button>
+            }
+        </div>
+    </div>
+    <p class="h4">@Html.ActionLink("Back To List", "Admin", "Menu")</p>
+    @Html.HiddenFor(m => m.MenuItem.Id)
+}
+
+@section scripts
+{
+    @Scripts.Render("~/bundles/jqueryval")
+}
